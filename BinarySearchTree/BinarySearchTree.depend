@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1476910431 source:c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\main.cpp
+1476995031 source:c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\main.cpp
 	<iostream>
 	"SearchTree.h"
 
-1476910642 c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\include\searchtree.h
+1476994951 c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\include\searchtree.h
+	<iostream>
 
-1476910330 source:c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\src\searchtree.cpp
+1476995943 source:c:\users\owner\documents\github\data-structures-assignment-3\binarysearchtree\src\searchtree.cpp
 	"SearchTree.h"
 
