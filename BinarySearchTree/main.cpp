@@ -19,7 +19,7 @@ int main()
     cout << endl << endl;
 
     //deleting a node from an empty tree
-    cout << "Deleting the node with value 35";
+    cout << "Deleting the node with value 35: ";
     test.deleteNode(35);
     cout << endl << endl;
 
@@ -43,7 +43,7 @@ int main()
     //printing tree so far
     cout << "The tree is: " << endl;
     test.printTree();
-    cout << endl << endl;
+    cout << endl;
 
     //cost of tree, which is 41
     cout << "The cost of the tree is: " << test.cost() << endl << endl;
@@ -59,7 +59,7 @@ int main()
     //printing tree so far
     cout << "The tree is: " << endl;
     test.printTree();
-    cout << endl << endl;
+    cout << endl;
 
     //cost of tree, which is 68
     cout << "The cost of the tree is: " << test.cost() << endl << endl;
@@ -76,13 +76,14 @@ int main()
     //printing tree so far
     cout << "After deleting 16, the tree is: " << endl;
     test.printTree();
-    cout << endl << endl;
+    cout << endl;
 
     //the tree is balanced
     if(test.isBalanced())
         cout << "Is balanced" << endl << endl;
     else
         cout << "Is not balanced" << endl << endl;
+
 
     //finding node 9
     test.findKey(9);
@@ -112,7 +113,7 @@ int main()
     //printing tree so far
     cout << "After deleting 10, the tree is: " << endl;
     test.printTree();
-    cout << endl << endl;
+    cout << endl;
 
     //cost of tree, which is 65
     cout << "The cost of the tree is: " << test.cost() << endl << endl;

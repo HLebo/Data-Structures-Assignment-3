@@ -156,7 +156,7 @@ void SearchTree::deleteNode(Node *root, Node *parent, int number){
             if(root->left_child == NULL){
                 Node *temp = root;
                 root = root->right_child;
-                if(temp->data < parent->data) {
+                if(temp->data <= parent->data) {
                     parent->left_child = root;
                 }
                 else {
@@ -170,7 +170,7 @@ void SearchTree::deleteNode(Node *root, Node *parent, int number){
             else{
                 Node *temp = root;
                 root = root->left_child;
-                if(temp->data < parent->data) {
+                if(temp->data <= parent->data) {
                     parent->left_child = root;
                 }
                 else {
@@ -249,7 +249,6 @@ int SearchTree::findDepth(Node* root, int number){
 int SearchTree::cost(){
     //empty tree case
     if(this->head == NULL){
-        cout << "Cost is not applicable because tree is empty" << endl;
         return 0;
     }
     //recursive call
