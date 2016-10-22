@@ -15,16 +15,26 @@ class SearchTree
 
         SearchTree();
         virtual ~SearchTree();
-        void printTree();
         void insertNode(int number);
-        void printTree(Node *root);
-
+        void printTree();
+        void findKey(int number);
+        void deleteNode(int number);
+        int findDepth(int number);
+        int cost();
+        bool isBalanced();
 
     protected:
 
     private:
 
         void insertNode(Node *root, int number);
+        void printTree(Node *root);
+        void findKey(Node* root, int number);
+        void deleteNode(Node* root, Node* parent, int number);
+        int findDepth(Node* root, int number);
+        int cost(Node* root);
+        int height(Node* root);
+        bool isBalanced(Node *root);
 };
 
 #endif // SEARCHTREE_H
