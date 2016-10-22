@@ -27,6 +27,7 @@ class SearchTree
 
     private:
 
+        //overloaded functions
         void insertNode(Node *root, int number);
         void printTree(Node *root);
         void findKey(Node* root, int number);
